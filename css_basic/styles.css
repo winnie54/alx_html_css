@@ -2,7 +2,9 @@ body{
     display: flex;
     flex-direction: column;
     background-color: darkgoldenrod;
-    border: 1px solid black;
+    border: 2px solid black;
+    margin: 30px 30px 30px 30px
+    padding: 20px 20px 20px 20px;
     
 }
 main{
@@ -20,7 +22,11 @@ aside{
     background-color: brown;
     border-bottom: 1px solid black;
 }
+h3{
+    padding: 10px 10px 10px 10px;
+    border: 1px solid black;
+}
 h1, h2{
-    border-bottom: 1px solid black;
+    text-decoration: underline;
 }
     A:hover { COLOR: yellow; TEXT-DECORATION: none; font-weight: none }
